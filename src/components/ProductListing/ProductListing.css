@@ -1,0 +1,34 @@
+
+.featured-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .featured-products-heading {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(26, 1, 1, 0.5);
+  }
+  
+.product-listing-container {
+    margin-bottom: 5%;
+}
+
+.listing-container {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .listing-container {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 2rem; 
+        padding-left: 15%;
+        
+
+    }
+}

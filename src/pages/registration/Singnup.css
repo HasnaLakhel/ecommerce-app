@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .Singnup-section {
+    padding-top: 5rem;
+  }
+  
+  .Singnup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .Singnup-img {
+    width: 55%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .Singnup-img img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .Singnup-content {
+    width: 50%;
+  }
+  
+  .Singnup-warpper {
+    padding-left: 4rem;
+  }
+  
+  /* Form styles */
+  .from-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .from-group label {
+    color: #333;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .buttonCart {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: chartreuse;
+    color: #0b0b0b;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .buttonCart:hover {
+    background-color: #0b0b0b;
+    color: #fff;
+  }
+  

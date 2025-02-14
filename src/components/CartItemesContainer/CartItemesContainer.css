@@ -1,0 +1,30 @@
+.CartItemesContainer {
+  padding: 2rem 0;
+  padding-top: 5rem;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-item-container {
+  padding: 0 5%; 
+}
+
+h2 {
+  margin-bottom: 1.5rem; 
+}
+
+.delete_btn {
+  background-color: #ff6f61; 
+  color: #fff; 
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.delete_btn:hover {
+  background-color: #e05245; 
+}

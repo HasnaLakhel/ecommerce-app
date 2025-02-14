@@ -1,0 +1,60 @@
+/* Footer.css */
+
+.Box {
+	background-color:#A94438;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.FooterContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Column {
+    width: 25%;
+    padding: 10px;
+}
+
+.Heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f1c40f;
+}
+
+.FooterLink {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.FooterLink:hover {
+    color: #f1c40f;
+}
+
+.FooterLink i {
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .Row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Column {
+        width: 100%;
+        text-align: center;
+    }
+}
