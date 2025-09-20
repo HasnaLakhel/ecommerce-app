@@ -8,7 +8,6 @@ This is an online manga store built with **React**.
 - View detailed information for each manga  
 - Fully responsive design for all devices  
 
-## Live Demo
-[Visit the live site](https://timely-lokum-2c5d5c.netlify.app/)
+
 
 
